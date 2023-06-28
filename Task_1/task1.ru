@@ -28,9 +28,11 @@ end
 
 puts Validation.valid_name?("Maria-Anna")
 puts Validation.valid_name?("Svan-Ivanov")
+puts Validation.valid_name?("Serhii-Pertonymous")
 
 puts Validation.valid_inn?("AZ1234543456")
 puts Validation.valid_inn?("AB4386736744")
+puts Validation.valid_inn?("AC6324673665")
 
 puts Validation.after_date?(Date.new(2003, 04, 13))
 puts Validation.after_date?(Date.today)
